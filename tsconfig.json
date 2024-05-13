@@ -1,0 +1,60 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "module": "CommonJS",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "incremental": true,
+    "plugins": [
+      {
+        "name": "next"
+      }
+    ],
+    "paths": {
+      "@/*": [
+        "./src/*"
+      ]
+    }
+  },
+  "ts-node": {
+    "require": [
+      "tsconfig-paths/register"
+    ]
+  },
+  "paths": {
+    "@/*": [
+      "./src/*"
+    ]
+  },
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    ".next/types/**/*.ts",
+    "releases/20240325180559/types/**/*.ts",
+    "releases/20240325180930/types/**/*.ts",
+    "releases/20240402163311/types/**/*.ts",
+    "releases/20240415104621/types/**/*.ts",
+    "releases/20240415111619/types/**/*.ts",
+    "releases/20240415123337/types/**/*.ts",
+    "releases/20240415130319/types/**/*.ts",
+    "releases/20240415130732/types/**/*.ts",
+    "releases/20240415131124/types/**/*.ts",
+    "releases/20240424144748/types/**/*.ts"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
